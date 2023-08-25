@@ -5,11 +5,11 @@ Implementation of combinational logic gates
 To implement the given logic function verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
  
-## Equipments Required:
+## EQUIPMENTS REQUIRED:
 - Hardware – PCs, Cyclone II , USB flasher
 - Software – Quartus prime
 
-## Theory:
+## THEORY:
 
 Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
 #### OR Gate:
@@ -19,7 +19,7 @@ The AND gate is a fundamental digital logic gate with two inputs and one output.
 #### NOT Gate:
 The NOT gate is a fundamental digital logic gate. It has a single input and a single output. The output is the inverse of the input: if the input is high (1), the output is low (0), and vice versa. It's a basic building block in digital circuits, used for logic inversion.
 
-## Procedure:
+## PROCEDURE:
 1. Create a New Project:
    - Open Quartus and create a new project by selecting "File" > "New Project Wizard."
    - Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -46,7 +46,7 @@ The NOT gate is a fundamental digital logic gate. It has a single input and a si
    - Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 
-## Program:
+## PROGRAM:
 ```
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
@@ -67,12 +67,15 @@ endmodule
 ```
 ## RTL DIAGRAM:
 
+![image](https://github.com/SriSaiPriyaSenthilvel/Experiment--02-Implementation-of-combinational-logic-/assets/119475702/6329ef1b-79ff-44cd-af66-45b0063689b5)
 
-## Output:
-## RTL:
-F1
+## Output Timing Diagram:
 
+![image](https://github.com/SriSaiPriyaSenthilvel/Experiment--02-Implementation-of-combinational-logic-/assets/119475702/36680380-a83f-4e94-845d-06c411f09266)
 
-## Timing Diagram:
-## Result:
+## TRUTH TABLE:
+
+![image](https://github.com/SriSaiPriyaSenthilvel/Experiment--02-Implementation-of-combinational-logic-/assets/119475702/9e081665-de3d-48f8-b72c-914ffed53f16)
+
+## RESULT:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
