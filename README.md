@@ -9,16 +9,22 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+- Hardware – PCs, Cyclone II , USB flasher
+- Software – Quartus prime
 
+## Theory:
 
-## Theory
- 
+Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
+#### OR Gate:
+The OR gate is a fundamental digital logic gate that operates on two binary inputs, producing an output of 1 if at least one input is 1. It symbolizes logical disjunction and is essential in building logical circuits and decision-making processes in computers and electronics.
+#### AND Gate:
+The AND gate is a fundamental digital logic gate with two inputs and one output. It produces a high output (1) only when both input signals are high (1). If any input is low (0), the output remains low. It's a building block for more complex logic circuits and is integral in digital computations.
+#### NOT Gate:
+The NOT gate is a fundamental digital logic gate. It has a single input and a single output. The output is the inverse of the input: if the input is high (1), the output is low (0), and vice versa. It's a basic building block in digital circuits, used for logic inversion.
 
-## Logic Diagram
+## Logic Diagram:
 
-## Procedure:-
+## Procedure:
 1. Create a New Project:
    - Open Quartus and create a new project by selecting "File" > "New Project Wizard."
    - Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -34,7 +40,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
    - To compile the project, click on "Processing" > "Start Compilation" in the menu.
    - Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
 
-5. Analyze and Fix Errors:*
+5. Analyze and Fix Errors:
    - If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
    - Review and fix any issues in your code if necessary.
    - View the RTL diagram.
@@ -51,14 +57,14 @@ Program to implement the given logic function and to verify its operations in qu
 Developed by: 
 RegisterNumber:  
 */
-## RTL realization
+## RTL realization:
 
 ## Output:
-## RTL
+## RTL:
 F1
 
 F2
 
-## Timing Diagram
+## Timing Diagram:
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
