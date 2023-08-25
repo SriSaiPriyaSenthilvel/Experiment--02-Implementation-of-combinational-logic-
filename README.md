@@ -28,6 +28,11 @@ RegisterNumber:
 
 ## Output:
 ## RTL
+F1
+![image](https://github.com/SriSaiPriyaSenthilvel/Experiment--02-Implementation-of-combinational-logic-/assets/119475702/d0999be0-eaa5-4489-8358-c0377b2179c7)
+
+F2
+
 ## Timing Diagram
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
