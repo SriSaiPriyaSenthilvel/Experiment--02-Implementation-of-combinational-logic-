@@ -1,4 +1,4 @@
-# Experiment--02-Implementation-of-combinational-logic
+# Experiment 02 Implementation ofc ombinational logic
 Implementation of combinational logic gates
  
 ## AIM:
